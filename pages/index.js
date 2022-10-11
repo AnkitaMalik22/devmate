@@ -38,8 +38,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        Find Your DEV Mate!
-          <code className={styles.code}>search now! </code>
+          <code className={styles.code}>search now ... </code>
         </p>
 
 
