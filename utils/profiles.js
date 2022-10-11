@@ -17,6 +17,15 @@ const profiles = [
         twitter: "qvidahl",
         instagram: "tplive"
     },
+    {
+        name: "Tirth Patel",
+        role: "Student",
+        bio: "Flutter Developer",
+        skills: ["Flutter", "Dart"],
+        github: "tirthkp",
+        twitter: "tirthkp",
+        instagram: "tirthkp"
+    },
 ]
 
 export default profiles;
