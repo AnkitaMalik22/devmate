@@ -1,8 +1,12 @@
- const SKILLS=[
-   { name :"Html"},
-   { name : "Javascript"},
-   { name: "ReactJs"},
-  {  name :"NodeJs"},
+const SKILLS = [
+    { name: "Html" },
+    { name: "Javascript" },
+    { name: "ReactJs" },
+    { name: "NodeJs" },
+    { name: "Solidity" },
+    { name: "Express" },
+    { name: "MongoDB" },
+    { name: "Web3.js" }
     // Java :"Java",
     // Ruby :"Ruby",
     // C,
@@ -10,7 +14,7 @@
     // PHP,
     // MongoDB,
     // MySQL,
- ]
+]
 
 
- export default SKILLS;
+export default SKILLS;
