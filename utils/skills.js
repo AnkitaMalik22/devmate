@@ -2,7 +2,9 @@
    { name :"Html"},
    { name : "Javascript"},
    { name: "ReactJs"},
-  {  name :"NodeJs"},
+     { name: "NodeJs" },
+     { name: "SQL" },
+     {name:"NextJs"}
     // Java :"Java",
     // Ruby :"Ruby",
     // C,
