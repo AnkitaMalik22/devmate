@@ -17,6 +17,15 @@ const profiles = [
         twitter: "qvidahl",
         instagram: "tplive"
     },
+      {
+        name: "Andrew McDonald",
+        role: "Educational Consultant",
+        bio: "Educational Concultant",
+        skills: ["Scratch", "html", "python"],
+        github: "afmcdnL",
+        twitter: "afmcdnL",
+        instagram: "afmcdnL"
+    },
 ]
 
 export default profiles;
