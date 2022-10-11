@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -14,7 +18,20 @@ a {
 * {
   box-sizing: border-box;
 }
-
+.top-100 {top: 100%}
+.bottom-100 {bottom: 100%}
+.max-h-select {
+    max-height: 300px;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+svg {
+  width: 46px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
