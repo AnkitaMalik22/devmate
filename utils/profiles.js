@@ -18,6 +18,17 @@ const profiles = [
         instagram: "tplive"
     },
 
+      {
+        name: "Andrew McDonald",
+        role: "Educational Consultant",
+        bio: "Educational Concultant",
+        skills: ["Scratch", "html", "python"],
+        github: "afmcdnL",
+        twitter: "afmcdnL",
+        instagram: "afmcdnL"
+    },
+
+
     {
         name: "Arun Jangra",
         role: "Student",
@@ -49,6 +60,7 @@ const profiles = [
         instagram: "don't have "
 
     },
+
 
 ]
 
