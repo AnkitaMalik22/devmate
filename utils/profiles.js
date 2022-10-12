@@ -17,6 +17,7 @@ const profiles = [
         twitter: "qvidahl",
         instagram: "tplive"
     },
+
     {
         name: "Tirth Patel",
         role: "Student",
@@ -25,6 +26,17 @@ const profiles = [
         github: "tirthkp",
         twitter: "tirthkp",
         instagram: "tirthkp"
+      },
+
+    {
+        name: "Aditi Chauhan",
+        role: "Student",
+        bio: "Aspiring Full Stack Developer",
+        skills: ["react", "html", "css", "javascript" , "python" ],
+        github: "Aditi-1709",
+        twitter: "don't have",
+        instagram: "don't have "
+
     },
 ]
 
