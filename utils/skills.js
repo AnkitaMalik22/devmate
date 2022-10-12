@@ -1,18 +1,22 @@
- const SKILLS=[
-   { name :"Html"},
-   { name : "Javascript"},
-   { name: "ReactJs"},
-     { name: "NodeJs" },
-     { name: "SQL" },
-     {name:"NextJs"}
-    // Java :"Java",
-    // Ruby :"Ruby",
-    // C,
-    // Python,
-    // PHP,
-    // MongoDB,
-    // MySQL,
- ]
 
 
- export default SKILLS;
+const SKILLS = [
+    { name: "Html" },
+    { name: "Javascript" },
+    { name: "ReactJs" },
+    { name: "NodeJs" },
+    { name: "SQL" },
+    {name:"NextJs"},
+    { name :"Java"},
+    { name:"Flutter"},
+    { name:"Dart"},
+    { name: "Solidity" },
+    { name: "Express" },
+    { name: "MongoDB" },
+    { name: "Web3.js" },
+  ]
+
+
+
+
+export default SKILLS;
