@@ -10,7 +10,7 @@ export const ProfileCard = ({data}) => {
   <h2>{data.name}</h2>
   <p>{data.role}</p>
   <p>{data.bio}</p>
-<div className="flex flex-row ">
+<div className="flex flex-row flex-wrap">
 {data.skills.map((element,index) => {
    return (
       <div
