@@ -45,7 +45,7 @@ export default function Home() {
 
       
 
-<div className="w-full md:w-1/2 flex flex-col items-center h-64 mx-auto ">
+<div className="w-full md:w-1/2 flex flex-col items-center h-64 mx-auto" style={{color:"black"}}>
     <div className="w-full px-4">
         <div className="flex flex-col items-center relative">
             <div className="w-full  svelte-1l8159u">
