@@ -11,7 +11,7 @@
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
-If you wish to contribute, we highly recommend following the guidelines mentioned below. 
+If you wish to contribute, we highly recommend following the guidelines mentioned below.
 
 **1.**  Fork [this](https://github.com/AnkitaMalik22/devmate) repository.
 
@@ -19,6 +19,15 @@ If you wish to contribute, we highly recommend following the guidelines mentione
 
 ```bash
    git clone https://github.com/your_username/devmate.git
+```
+
+**3.** Install Dependencies.
+```
+   npm install next react react-dom
+   # or
+   yarn add next react react-dom
+   # or
+   pnpm add next react react-dom
 ```
 
 **3.** Navigate to the project directory.
@@ -62,5 +71,3 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-
