@@ -17,6 +17,7 @@ const profiles = [
         twitter: "qvidahl",
         instagram: "tplive"
     },
+
     {
         name: "Arun Jangra",
         role: "Student",
@@ -25,7 +26,30 @@ const profiles = [
         github: "Arun89-crypto",
         twitter: "w3Ts0ck3T",
         instagram: "yopiter._.kick"
-    }
+    },
+
+
+    {
+        name: "Tirth Patel",
+        role: "Student",
+        bio: "Flutter Developer",
+        skills: ["Flutter", "Dart"],
+        github: "tirthkp",
+        twitter: "tirthkp",
+        instagram: "tirthkp"
+      },
+
+    {
+        name: "Aditi Chauhan",
+        role: "Student",
+        bio: "Aspiring Full Stack Developer",
+        skills: ["react", "html", "css", "javascript" , "python" ],
+        github: "Aditi-1709",
+        twitter: "don't have",
+        instagram: "don't have "
+
+    },
+
 ]
 
 export default profiles;
