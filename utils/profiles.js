@@ -19,6 +19,17 @@ const profiles = [
     },
 
     {
+        name: "Arun Jangra",
+        role: "Student",
+        bio: "Full Stack Web3 Developer",
+        skills: ["react", "nodejs", "express", "typescript", "solidity", "web3.js"],
+        github: "Arun89-crypto",
+        twitter: "w3Ts0ck3T",
+        instagram: "yopiter._.kick"
+    },
+
+
+    {
         name: "Tirth Patel",
         role: "Student",
         bio: "Flutter Developer",
@@ -38,6 +49,7 @@ const profiles = [
         instagram: "don't have "
 
     },
+
 ]
 
 export default profiles;
