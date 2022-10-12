@@ -30,6 +30,16 @@ const profiles = [
 
 
     {
+        name: "Roshan Kc",
+        role: "Student",
+        bio: "Full Stack Developer",
+        skills: ["Python", "Django", "React","NextJs","AWS","Security Researcher"],
+        github: "Roshankc682",
+        twitter: "roshan_kc682",
+        instagram: "N/A"
+    },
+
+    {
         name: "Arun Jangra",
         role: "Student",
         bio: "Full Stack Web3 Developer",
