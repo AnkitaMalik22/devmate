@@ -18,6 +18,15 @@ const profiles = [
         instagram: "tplive"
     },
 
+    {
+        name: "Sarthak Rajput",
+        role: "Student",
+        bio: "Aspiring Full Stack Developer",
+        skills: ["react", "html", "css", "Javascript"],
+        github: "rsarthak",
+        instagram: "sarthak_raj_put"
+    },
+
       {
         name: "Andrew McDonald",
         role: "Educational Consultant",

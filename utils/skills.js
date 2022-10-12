@@ -1,9 +1,12 @@
 
+
 const SKILLS = [
     { name: "Html" },
     { name: "Javascript" },
     { name: "ReactJs" },
     { name: "NodeJs" },
+    { name: "SQL" },
+    {name:"NextJs"},
     { name :"Java"},
     { name:"Flutter"},
     { name:"Dart"},
