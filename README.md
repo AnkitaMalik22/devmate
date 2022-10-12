@@ -30,32 +30,32 @@ If you wish to contribute, we highly recommend following the guidelines mentione
    pnpm add next react react-dom
 ```
 
-**3.** Navigate to the project directory.
+**4.** Navigate to the project directory.
 ```
    cd devmate
 ```
 
-**4.** Create a new branch:
+**5.** Create a new branch:
 ```
    git checkout -b YourBranchName
 ```
 
-**5.** Make changes in source code.
+**6.** Make changes in source code.
 
-**6.** Stage your changes and commit
+**7.** Stage your changes and commit
 
 ```
    git add .
    git commit -m "<your_commit_message>"
 ```
 
-**7.** Push your local commits to the remote repo.
+**8.** Push your local commits to the remote repo.
 
 ```
    git push origin YourBranchName
 ```
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+**9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
 
 ## Getting Started
