@@ -79,7 +79,15 @@ const profiles = [
         instagram: "don't have "
 
     },
-
+    {
+        name: "Sai Karthik",
+        role: "Software Engineer",
+        bio: "Frontend Developer",
+        skills: ["ReactJs", "Html", "css", "Javascript"],
+        github: "sai-karthik-p",
+        twitter: "SaikarthikP",
+        instagram: "_.sai_karthik._"
+    },
 
 ]
 
