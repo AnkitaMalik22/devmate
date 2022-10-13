@@ -32,12 +32,31 @@ li {
 svg {
   width: 46px;
 }
+
+@media (prefers-color-scheme: white) {
+  html {
+    color-scheme: black;
+  }
+  body {
+    color: black;
+    background: white;
+  }
+  .icon{
+    fill: black;
+  }
+
+}
+
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: White;
   }
   body {
     color: white;
     background: black;
   }
+  .icon{
+    fill: white;
+  }
+
 }
