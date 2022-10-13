@@ -5,7 +5,7 @@ import { useState ,useEffect} from 'react';
 import SKILLS from '../utils/skills';
 import { ProfileCard } from '../components/ProfileCard';
 import profiles from '../utils/profiles';
-
+import { FaGithub } from 'react-icons/fa';
 
 
 export default function Home() {
@@ -132,13 +132,12 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
+          href="https://github.com/AnkitaMalik22/devmate"
           rel="noopener noreferrer"
         >
           Add your profile now!
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <FaGithub/>
           </span>
         </a>
       </footer>
