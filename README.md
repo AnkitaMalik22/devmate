@@ -11,7 +11,7 @@
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
-If you wish to contribute, we highly recommend following the guidelines mentioned below. 
+If you wish to contribute, we highly recommend following the guidelines mentioned below.
 
 **1.**  Fork [this](https://github.com/AnkitaMalik22/devmate) repository.
 
@@ -21,32 +21,41 @@ If you wish to contribute, we highly recommend following the guidelines mentione
    git clone https://github.com/your_username/devmate.git
 ```
 
-**3.** Navigate to the project directory.
+**3.** Install Dependencies.
+```
+   npm i
+   # or
+   yarn 
+   # or
+   pnpm i
+```
+
+**4.** Navigate to the project directory.
 ```
    cd devmate
 ```
 
-**4.** Create a new branch:
+**5.** Create a new branch:
 ```
    git checkout -b YourBranchName
 ```
 
-**5.** Make changes in source code.
+**6.** Make changes in source code.
 
-**6.** Stage your changes and commit
+**7.** Stage your changes and commit
 
 ```
    git add .
    git commit -m "<your_commit_message>"
 ```
 
-**7.** Push your local commits to the remote repo.
+**8.** Push your local commits to the remote repo.
 
 ```
    git push origin YourBranchName
 ```
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+**9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
 
 ## Getting Started
@@ -62,5 +71,3 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-

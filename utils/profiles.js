@@ -84,12 +84,45 @@ const profiles = [
     instagram: "don't have ",
   },
 
-  {
+    {
+        name: "Tirth Patel",
+        role: "Student",
+        bio: "Flutter Developer",
+        skills: ["Flutter", "Dart"],
+        github: "tirthkp",
+        twitter: "tirthkp",
+        instagram: "tirthkp"
+      },
+
+    {
+        name: "Aditi Chauhan",
+        role: "Student",
+        bio: "Aspiring Full Stack Developer",
+        skills: ["react", "html", "css", "javascript" , "python" ],
+        github: "Aditi-1709",
+        twitter: "don't have",
+        instagram: "don't have "
+
+    },
+    {
+        name: "Sai Karthik",
+        role: "Software Engineer",
+        bio: "Frontend Developer",
+        skills: ["ReactJs", "Html", "css", "Javascript"],
+        github: "sai-karthik-p",
+        twitter: "SaikarthikP",
+        instagram: "_.sai_karthik._"
+    },
+    
+      {
     name: "Souvik Das",
     role: "Student",
     bio: "Aspiring Developer - App and Web",
     skills: ["react", "html", "css", "javascript", "python", "Swift"],
   },
+  
 ];
+
+
 
 export default profiles;
