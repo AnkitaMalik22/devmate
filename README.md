@@ -23,11 +23,11 @@ If you wish to contribute, we highly recommend following the guidelines mentione
 
 **3.** Install Dependencies.
 ```
-   npm install next react react-dom
+   npm i
    # or
-   yarn add next react react-dom
+   yarn 
    # or
-   pnpm add next react react-dom
+   pnpm i
 ```
 
 **4.** Navigate to the project directory.
