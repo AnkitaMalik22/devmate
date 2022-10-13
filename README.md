@@ -21,44 +21,45 @@ If you wish to contribute, we highly recommend following the guidelines mentione
    git clone https://github.com/your_username/devmate.git
 ```
 
-**3.** Install Dependencies.
-```
-   npm i
-   # or
-   yarn 
-   # or
-   pnpm i
-```
-
-**4.** Navigate to the project directory.
+**3.** Navigate to the project directory.
 ```
    cd devmate
 ```
 
-**5.** Create a new branch:
+**4.** Create a new branch:
 ```
    git checkout -b YourBranchName
 ```
 
-**6.** Make changes in source code.
+**5.** Make changes in source code.
 
-**7.** Stage your changes and commit
+**6.** Stage your changes and commit
 
 ```
    git add .
    git commit -m "<your_commit_message>"
 ```
 
-**8.** Push your local commits to the remote repo.
+**7.** Push your local commits to the remote repo.
 
 ```
    git push origin YourBranchName
 ```
 
-**9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
 
 ## Getting Started
+
+Install necessary dependencies for the project to run.
+
+  ```bash
+npm i
+# or
+yarn 
+# or
+pnpm i
+   ```
 
 First, run the development server:
 
