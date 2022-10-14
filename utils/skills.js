@@ -13,6 +13,9 @@ const SKILLS = [
   { name: "MongoDB" },
   { name: "Web3.js" },
   { name: "Swift" },
+  { name: "VueJs" },
+  { name: "Restify" },
+  { name: "PostgreSQL" }
 ];
 
 export default SKILLS;

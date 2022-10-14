@@ -120,7 +120,15 @@ const profiles = [
     bio: "Aspiring Developer - App and Web",
     skills: ["react", "html", "css", "javascript", "python", "Swift"],
   },
-  
+  {
+    name: "Hijikesh Hijal",
+    role: "Software Engineer",
+    bio: "Full Stack Developer",
+    skills: ["JavaScript", "Node", "React", "VueJs", "Express", "Restify", "MySQL", "PostgreSQL", "MongoDB"],
+    github: "hijal",
+    twitter: "hiijal",
+    instagram: "",
+  },
 ];
 
 
