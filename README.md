@@ -74,6 +74,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 #Contributors 
+
 <a align="center" href="https://github.com/AnkitaMalik22/devmate/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AnkitaMalik22/devmate&&max=817" />
 </a>
