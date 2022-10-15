@@ -148,9 +148,25 @@ const profiles = [
       "JavaScript",
       "React",
       "Tailwind",
-      "MaterialUi"
+      "MaterialUi",
     ],
    
+  },
+  {
+    name: "Shaurya Sk",
+    role: "FrontEnd developer",
+    bio: "Front-End Developer",
+    skills: [
+      "Html",
+      "Css",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "MaterialUi",
+    ],
+    github: "Shaurya",
+    twitter: "ShauryaKumar",
+    instagram: "SShaurya",
   },
 ];
 
