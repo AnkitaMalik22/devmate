@@ -129,6 +129,15 @@ const profiles = [
     twitter: "hiijal",
     instagram: "",
   },
+  {
+    name: "Panagiotis Anthoulis",
+    role: "Software Engineer",
+    bio: "Frontend Developer",
+    skills: ["JavaScript", "Node", "React", "Express","MySQL", "MongoDB"],
+    github: "PanagiotisAnthoulis",
+    twitter: "PanosAnthoulis1",
+    instagram: "panos_anthoulis",
+  },
 ];
 
 
