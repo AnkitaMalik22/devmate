@@ -187,6 +187,15 @@ const profiles = [
     twitter: "indudini thennakoon",
     instagram: "Indudini Thennakoon",
     },
+    {
+      name: "Vedang Mule",
+      role: "Student at VIT Mumbai",
+      bio: "Web Developer and Competitive programmer",
+      skills: [ "html", "css", "javascript", "c++", "React", "Express","Java","git"],
+      github: "developer208",
+      twitter: "Vedang208",
+      instagram: "lazy_coder208",
+      },
 
 ];
 
