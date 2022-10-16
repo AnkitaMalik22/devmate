@@ -205,6 +205,15 @@ const profiles = [
     twitter: "LogadheepN",
     instagram: "__loga45__",
   },
+  {
+    name: "Nikita Mahamuni",
+    role: "Student",
+    bio: "Ambitious Engineer with creative mindset",
+    skills: ["html", "css", "javascript", "c++", "python", "OpenCV"],
+    github: "Nikita0590",
+    twitter: "NikitaMahamuni",
+    instagram: "nick2__000",
+  },
 
 ];
 
