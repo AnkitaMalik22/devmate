@@ -84,37 +84,36 @@ const profiles = [
     instagram: "don't have ",
   },
 
-    {
-        name: "Tirth Patel",
-        role: "Student",
-        bio: "Flutter Developer",
-        skills: ["Flutter", "Dart"],
-        github: "tirthkp",
-        twitter: "tirthkp",
-        instagram: "tirthkp"
-      },
+  {
+    name: "Tirth Patel",
+    role: "Student",
+    bio: "Flutter Developer",
+    skills: ["Flutter", "Dart"],
+    github: "tirthkp",
+    twitter: "tirthkp",
+    instagram: "tirthkp",
+  },
 
-    {
-        name: "Aditi Chauhan",
-        role: "Student",
-        bio: "Aspiring Full Stack Developer",
-        skills: ["react", "html", "css", "javascript" , "python" ],
-        github: "Aditi-1709",
-        twitter: "don't have",
-        instagram: "don't have "
+  {
+    name: "Aditi Chauhan",
+    role: "Student",
+    bio: "Aspiring Full Stack Developer",
+    skills: ["react", "html", "css", "javascript", "python"],
+    github: "Aditi-1709",
+    twitter: "don't have",
+    instagram: "don't have ",
+  },
+  {
+    name: "Sai Karthik",
+    role: "Software Engineer",
+    bio: "Frontend Developer",
+    skills: ["ReactJs", "Html", "css", "Javascript"],
+    github: "sai-karthik-p",
+    twitter: "SaikarthikP",
+    instagram: "_.sai_karthik._",
+  },
 
-    },
-    {
-        name: "Sai Karthik",
-        role: "Software Engineer",
-        bio: "Frontend Developer",
-        skills: ["ReactJs", "Html", "css", "Javascript"],
-        github: "sai-karthik-p",
-        twitter: "SaikarthikP",
-        instagram: "_.sai_karthik._"
-    },
-    
-      {
+  {
     name: "Souvik Das",
     role: "Student",
     bio: "Aspiring Developer - App and Web",
@@ -124,12 +123,52 @@ const profiles = [
     name: "Hijikesh Hijal",
     role: "Software Engineer",
     bio: "Full Stack Developer",
-    skills: ["JavaScript", "Node", "React", "VueJs", "Express", "Restify", "MySQL", "PostgreSQL", "MongoDB"],
+    skills: [
+      "JavaScript",
+      "Node",
+      "React",
+      "VueJs",
+      "Express",
+      "Restify",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+    ],
     github: "hijal",
     twitter: "hiijal",
     instagram: "",
   },
   {
+    name: "Stuti Kumari",
+    role: "Software Engineer",
+    bio: "Front-End Developer",
+    skills: [
+      "Html",
+      "Css",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "MaterialUi",
+    ],
+   
+  },
+  {
+    name: "Shaurya Sk",
+    role: "FrontEnd developer",
+    bio: "Front-End Developer",
+    skills: [
+      "Html",
+      "Css",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "MaterialUi",
+    ],
+    github: "Shaurya",
+    twitter: "ShauryaKumar",
+    instagram: "SShaurya",
+    },
+    {
     name: "Dhruvil Lakhtaria",
     role: "Student",
     bio: "Aspiring Software Engineer",
@@ -139,7 +178,5 @@ const profiles = [
     instagram: "dhruvil.lakhtaria",
   },
 ];
-
-
 
 export default profiles;
