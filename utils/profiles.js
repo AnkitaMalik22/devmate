@@ -205,7 +205,13 @@ const profiles = [
     twitter: "LogadheepN",
     instagram: "__loga45__",
   },
-
+  {
+    name: "Harry Ramsey",
+    role: "Student",
+    bio: "An aspiring software engineer with a passion for learning new technologies and developing solutions.",
+    skills: ["C", "C#", "Java", "Javascript", "HTML"],
+    github: "harry-ramsey",
+  },
 ];
 
 export default profiles;
