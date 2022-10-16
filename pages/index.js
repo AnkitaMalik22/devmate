@@ -8,6 +8,7 @@ import profiles from '../utils/profiles';
 import { FaGithub } from 'react-icons/fa';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Typewriter from 'typewriter-effect';
 
 
 export default function Home() {
@@ -61,8 +62,16 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          <code className={styles.code}>search your Mates now ... </code>
-        </p>
+          <code className={styles.code}>
+        <Typewriter
+  options={{
+    strings: ['Search your mates now ...'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+</code>
+</p>
 
 
 
