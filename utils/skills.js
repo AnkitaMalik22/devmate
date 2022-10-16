@@ -15,7 +15,12 @@ const SKILLS = [
   { name: "Swift" },
   { name: "VueJs" },
   { name: "Restify" },
-  { name: "PostgreSQL" }
+  { name: "PostgreSQL" },
+  { name: "css" },
+  { name: "php" },
+  { name: "C" },
+  { name: "C++" },
+  { name: "git" }
 ];
 
 export default SKILLS;

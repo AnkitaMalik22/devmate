@@ -168,7 +168,7 @@ const profiles = [
     twitter: "ShauryaKumar",
     instagram: "SShaurya",
     },
-    {
+  {
     name: "Dhruvil Lakhtaria",
     role: "Student",
     bio: "Aspiring Software Engineer",
@@ -176,7 +176,18 @@ const profiles = [
     github: "Dhruvil-Lakhtaria",
     twitter: "",
     instagram: "dhruvil.lakhtaria",
+
   },
+  {
+    name: "Indudini Thennakoon",
+    role: "Student at SLIIT",
+    bio: "Web Developer and Content Writer",
+    skills: [ "html", "css", "c", "c++", "php", "MySQL","JavaScript","git"],
+    github: "IndudiniThennakoon",
+    twitter: "indudini thennakoon",
+    instagram: "Indudini Thennakoon",
+    },
+
 ];
 
 export default profiles;
