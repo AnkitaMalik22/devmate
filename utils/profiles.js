@@ -196,6 +196,15 @@ const profiles = [
       twitter: "Vedang208",
       instagram: "lazy_coder208",
       },
+  {
+    name: "Logadheep",
+    role: "Student",
+    bio: "Python Enthusiast and Competitive Programmer",
+    skills: ["html", "css", "javascript", "c++", "python", "java"],
+    github: "Logadheep",
+    twitter: "LogadheepN",
+    instagram: "__loga45__",
+  },
 
 ];
 
