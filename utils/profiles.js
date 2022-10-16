@@ -167,6 +167,15 @@ const profiles = [
     github: "Shaurya",
     twitter: "ShauryaKumar",
     instagram: "SShaurya",
+    },
+    {
+    name: "Dhruvil Lakhtaria",
+    role: "Student",
+    bio: "Aspiring Software Engineer",
+    skills: ["JavaScript", "Node", "React", "Express", "MySQL", "MongoDB"],
+    github: "Dhruvil-Lakhtaria",
+    twitter: "",
+    instagram: "dhruvil.lakhtaria",
   },
 ];
 
