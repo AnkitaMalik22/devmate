@@ -129,6 +129,15 @@ const profiles = [
     twitter: "hiijal",
     instagram: "",
   },
+  {
+    name: "Shivanshi Saxena",
+    role: "Student",
+    bio: "Frontend Developer",
+    skills: ["HTML","CSS","JavaScript", "Node", "React","Python", "Tailwind CSS"],
+    github: "shivanshi-s",
+    twitter: "whatshivanshi",
+    instagram: "",
+  },
 ];
 
 
