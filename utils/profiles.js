@@ -8,6 +8,7 @@ const profiles = [
     twitter: "ankiitamalik",
     instagram: "ankiitamalik",
   },
+  
   {
     name: "Thomas Qvidahl",
     role: "Software Engineer",
@@ -103,6 +104,7 @@ const profiles = [
     twitter: "don't have",
     instagram: "don't have ",
   },
+  
   {
     name: "Sai Karthik",
     role: "Software Engineer",
@@ -117,8 +119,14 @@ const profiles = [
     name: "Souvik Das",
     role: "Student",
     bio: "Aspiring Developer - App and Web",
-    skills: ["react", "html", "css", "javascript", "python", "Swift"],
+    skills: ["react", 
+             "html", 
+             "css", 
+             "javascript", 
+             "python", 
+             "Swift"],
   },
+  
   {
     name: "Hijikesh Hijal",
     role: "Software Engineer",
@@ -132,7 +140,7 @@ const profiles = [
       "Restify",
       "MySQL",
       "PostgreSQL",
-      "MongoDB",
+      "MongoDB"
     ],
     github: "hijal",
     twitter: "hiijal",
@@ -205,7 +213,18 @@ const profiles = [
     twitter: "LogadheepN",
     instagram: "__loga45__",
   },
-
+  
+  {
+    name: "Kavya Karthik",
+    role: "Student",
+    bio: "Aspiring Web Page Developer",
+    skills: ["html", 
+             "css", 
+            ],
+    github: "kkavya30",
+    twitter: "",
+    instagram: "",
+  },
 ];
 
 export default profiles;
