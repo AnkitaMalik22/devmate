@@ -129,6 +129,16 @@ const profiles = [
     twitter: "hiijal",
     instagram: "",
   },
+
+  {
+    name: "Indudini Thennakoon",
+    role: "Student at SLIIT",
+    bio: "Web Developer and Content Writer",
+    skills: [ "html", "css", "c", "c++", "php", "MySQL","JavaScript","git"],
+    github: "IndudiniThennakoon",
+    twitter: "indudini thennakoon",
+    instagram: "Indudini Thennakoon",
+  },
 ];
 
 
