@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Typewriter from 'typewriter-effect';
 
+
 export default function Home() {
   const [display, setDisplay] = useState("absolute");
   const [lang, setLang] = useState();
@@ -71,6 +72,7 @@ export default function Home() {
 />
 </code>
 </p>
+
 
 
 
