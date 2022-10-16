@@ -20,7 +20,8 @@ const SKILLS = [
   { name: "php" },
   { name: "C" },
   { name: "C++" },
-  { name: "git" }
+  { name: "git" },
+  { name: "python"}
 ];
 
 export default SKILLS;
