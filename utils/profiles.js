@@ -187,6 +187,15 @@ const profiles = [
     twitter: "indudini thennakoon",
     instagram: "Indudini Thennakoon",
     },
+  {
+    name: "Radhika Chhabra",
+    role: "Student",
+    bio: "Aspiring Software Engineer",
+    skills: ["Machine Learning", "Deep Learning", "JavaScript", "React", "MySQL", "MongoDB"],
+    github: "RadhikaChhabra17",
+    twitter: "",
+    instagram: "radhika._17",
+  },
 
 ];
 
