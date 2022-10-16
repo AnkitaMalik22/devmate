@@ -51,13 +51,13 @@
 }
 
 .description {
-  margin: 4rem 0;
+  
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 
 .code {
-  background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
