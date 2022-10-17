@@ -8,6 +8,7 @@ const profiles = [
     twitter: "ankiitamalik",
     instagram: "ankiitamalik",
   },
+  
   {
     name: "Thomas Qvidahl",
     role: "Software Engineer",
@@ -103,6 +104,7 @@ const profiles = [
     twitter: "don't have",
     instagram: "don't have ",
   },
+  
   {
     name: "Sai Karthik",
     role: "Software Engineer",
@@ -117,8 +119,14 @@ const profiles = [
     name: "Souvik Das",
     role: "Student",
     bio: "Aspiring Developer - App and Web",
-    skills: ["react", "html", "css", "javascript", "python", "Swift"],
+    skills: ["react", 
+             "html", 
+             "css", 
+             "javascript", 
+             "python", 
+             "Swift"],
   },
+  
   {
     name: "Hijikesh Hijal",
     role: "Software Engineer",
@@ -132,7 +140,7 @@ const profiles = [
       "Restify",
       "MySQL",
       "PostgreSQL",
-      "MongoDB",
+      "MongoDB"
     ],
     github: "hijal",
     twitter: "hiijal",
@@ -177,6 +185,7 @@ const profiles = [
     twitter: "",
     instagram: "dhruvil.lakhtaria",
 
+
   },
   {
     name: "Indudini Thennakoon",
@@ -186,8 +195,77 @@ const profiles = [
     github: "IndudiniThennakoon",
     twitter: "indudini thennakoon",
     instagram: "Indudini Thennakoon",
-    },
+
+  },
   {
+    name: "Ayush kumar",
+    role: "Student",
+    bio: "student at NITK",
+    skills: ["JavaScript", "React", "MySQL", "PostgreSQL","python"],
+    github: "ayush4345",
+    twitter: "ayushk_43",
+    },
+    
+    {
+      name: "Vedang Mule",
+      role: "Student at VIT Mumbai",
+      bio: "Web Developer and Competitive programmer",
+      skills: [ "html", "css", "javascript", "c++", "React", "Express","Java","git"],
+      github: "developer208",
+      twitter: "Vedang208",
+      instagram: "lazy_coder208",
+      },
+  {
+    name: "Logadheep",
+    role: "Student",
+    bio: "Python Enthusiast and Competitive Programmer",
+    skills: ["html", "css", "javascript", "c++", "python", "java"],
+    github: "Logadheep",
+    twitter: "LogadheepN",
+    instagram: "__loga45__",
+  },
+
+  {
+    name: "Harry Ramsey",
+    role: "Student",
+    bio: "An aspiring software engineer with a passion for learning new technologies and developing solutions.",
+    skills: ["C", "C#", "Java", "Javascript", "HTML"],
+    github: "harry-ramsey",
+  },
+
+  {
+    name: "Kavya Karthik",
+    role: "Student",
+    bio: "Aspiring Web Page Developer",
+    skills: ["html", 
+             "css", 
+            ],
+    github: "kkavya30",
+    twitter: "",
+    instagram: "",
+  },
+
+  {
+    name: "Nikita Mahamuni",
+    role: "Student",
+    bio: "Ambitious Engineer with creative mindset",
+    skills: ["html", "css", "javascript", "c++", "python", "OpenCV"],
+    github: "Nikita0590",
+    twitter: "NikitaMahamuni",
+    instagram: "nick2__000",
+  },
+{
+    name: "Panagiotis Anthoulis",
+    role: "Software Engineer",
+    bio: "Frontend Developer",
+    skills: ["JavaScript", "Node", "React", "Express","MySQL", "MongoDB"],
+    github: "PanagiotisAnthoulis",
+    twitter: "PanosAnthoulis1",
+    instagram: "panos_anthoulis",
+
+  },
+  {
+    
     name: "Radhika Chhabra",
     role: "Student",
     bio: "Aspiring Software Engineer",
@@ -195,7 +273,7 @@ const profiles = [
     github: "RadhikaChhabra17",
     twitter: "",
     instagram: "radhika._17",
-  },
+    },
 
 ];
 
