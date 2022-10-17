@@ -40,9 +40,16 @@
 }
 
 .title {
-  margin: 0;
+  margin-left: 200px;
   line-height: 1.15;
   font-size: 4rem;
+}
+
+.header {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  width: 100%;
 }
 
 .title,
