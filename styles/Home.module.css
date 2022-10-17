@@ -1,7 +1,7 @@
 .container {
   padding: 0 2rem;
 }
-
+  
 .main {
   /* min-height: 100vh; */
   padding: 4rem 0;
@@ -90,6 +90,22 @@
   .card {
     width: 100%;
     margin: 10px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    transition:transform .5s ease;
+  }
+
+  .card > section{
+    width:50%;
+  }
+  .card > section:last-child{
+    margin:0 0 0 10px;
+    width:48%;
+  }
+  .card > section > div:last-child{
+    padding:8px 0 0;
+    margin-bottom:-10px;
   }
 }
 
@@ -98,7 +114,7 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
-  transform: scale(1.08);
+  transform: scale(1.02);
 }
 
 .card h2 {
