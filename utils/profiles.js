@@ -177,6 +177,7 @@ const profiles = [
     twitter: "",
     instagram: "dhruvil.lakhtaria",
 
+
   },
   {
     name: "Indudini Thennakoon",
@@ -223,7 +224,15 @@ const profiles = [
     twitter: "NikitaMahamuni",
     instagram: "nick2__000",
   },
-
+{
+    name: "Panagiotis Anthoulis",
+    role: "Software Engineer",
+    bio: "Frontend Developer",
+    skills: ["JavaScript", "Node", "React", "Express","MySQL", "MongoDB"],
+    github: "PanagiotisAnthoulis",
+    twitter: "PanosAnthoulis1",
+    instagram: "panos_anthoulis",
+  },
 
 ];
 
