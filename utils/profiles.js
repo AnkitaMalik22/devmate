@@ -185,6 +185,7 @@ const profiles = [
     twitter: "",
     instagram: "dhruvil.lakhtaria",
 
+
   },
   {
     name: "Indudini Thennakoon",
@@ -194,6 +195,15 @@ const profiles = [
     github: "IndudiniThennakoon",
     twitter: "indudini thennakoon",
     instagram: "Indudini Thennakoon",
+
+  },
+  {
+    name: "Ayush kumar",
+    role: "Student",
+    bio: "student at NITK",
+    skills: ["JavaScript", "React", "MySQL", "PostgreSQL","python"],
+    github: "ayush4345",
+    twitter: "ayushk_43",
     },
     {
       name: "Vedang Mule",
@@ -213,6 +223,7 @@ const profiles = [
     twitter: "LogadheepN",
     instagram: "__loga45__",
   },
+
   
   {
     name: "Kavya Karthik",
@@ -225,6 +236,27 @@ const profiles = [
     twitter: "",
     instagram: "",
   },
+
+  {
+    name: "Nikita Mahamuni",
+    role: "Student",
+    bio: "Ambitious Engineer with creative mindset",
+    skills: ["html", "css", "javascript", "c++", "python", "OpenCV"],
+    github: "Nikita0590",
+    twitter: "NikitaMahamuni",
+    instagram: "nick2__000",
+  },
+{
+    name: "Panagiotis Anthoulis",
+    role: "Software Engineer",
+    bio: "Frontend Developer",
+    skills: ["JavaScript", "Node", "React", "Express","MySQL", "MongoDB"],
+    github: "PanagiotisAnthoulis",
+    twitter: "PanosAnthoulis1",
+    instagram: "panos_anthoulis",
+  },
+
+
 ];
 
 export default profiles;
