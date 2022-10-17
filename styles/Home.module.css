@@ -86,7 +86,7 @@
   height: auto;
 }
 
-@media (max-width: 786px) {
+@media (min-width: 600px) and (max-width:900px){
   .card {
     width: 100%;
     margin: 10px 0;
