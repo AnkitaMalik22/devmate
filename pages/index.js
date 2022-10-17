@@ -9,11 +9,14 @@ import { FaGithub } from 'react-icons/fa';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Typewriter from 'typewriter-effect';
+import { useTheme } from 'next-themes'
 
 
 export default function Home() {
   const [display, setDisplay] = useState("absolute");
   const [lang, setLang] = useState();
+  const { theme, setTheme } = useTheme()
+
   // let languages=new Set();
   // let langs=Array.from(languages)
 
@@ -57,9 +60,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Find Your DEV Mate!
-        </h1>
+        <div className={styles.header}>
+          <div>
+            
+          </div>
+          <h1 className={styles.title}>
+            Find Your DEV Mate!
+          </h1>
+          <div>
+          {theme === 'dark' ? (
+            <button onClick={() => setTheme('light')} type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Switch to Light Mode</button>
+            ) : (
+            <button onClick={() => setTheme('dark')} type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Switch to Dark Mode</button>
+          )
+        }  
+          </div>
+        </div>
 
         <p className={styles.description}>
           <code className={styles.code}>

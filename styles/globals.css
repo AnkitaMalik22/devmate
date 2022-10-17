@@ -74,3 +74,6 @@ svg {
   }
 
 }
+.py-2 > li{
+  background-color: white;
+}
