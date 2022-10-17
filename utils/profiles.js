@@ -186,6 +186,15 @@ const profiles = [
     github: "IndudiniThennakoon",
     twitter: "indudini thennakoon",
     instagram: "Indudini Thennakoon",
+
+  },
+  {
+    name: "Ayush kumar",
+    role: "Student",
+    bio: "student at NITK",
+    skills: ["JavaScript", "React", "MySQL", "PostgreSQL","python"],
+    github: "ayush4345",
+    twitter: "ayushk_43",
     },
     {
       name: "Vedang Mule",
@@ -205,6 +214,7 @@ const profiles = [
     twitter: "LogadheepN",
     instagram: "__loga45__",
   },
+
 
 ];
 
