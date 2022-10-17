@@ -205,6 +205,7 @@ const profiles = [
     github: "ayush4345",
     twitter: "ayushk_43",
     },
+    
     {
       name: "Vedang Mule",
       role: "Student at VIT Mumbai",
@@ -261,7 +262,18 @@ const profiles = [
     github: "PanagiotisAnthoulis",
     twitter: "PanosAnthoulis1",
     instagram: "panos_anthoulis",
+
   },
+  {
+    
+    name: "Radhika Chhabra",
+    role: "Student",
+    bio: "Aspiring Software Engineer",
+    skills: ["Machine Learning", "Deep Learning", "JavaScript", "React", "MySQL", "MongoDB"],
+    github: "RadhikaChhabra17",
+    twitter: "",
+    instagram: "radhika._17",
+    },
 
 ];
 
