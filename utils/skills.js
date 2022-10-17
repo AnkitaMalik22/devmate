@@ -23,7 +23,11 @@ const SKILLS = [
   { name: "C" },
   { name: "C++" },
   { name: "git" },
+  { name: "Machine Learning"},
+  { name: "Deep Learning"},
+  { name: "python"},
   {name:".Net"},
+
 ];
 
 export default SKILLS;
