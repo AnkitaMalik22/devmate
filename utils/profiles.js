@@ -186,6 +186,7 @@ const profiles = [
     github: "IndudiniThennakoon",
     twitter: "indudini thennakoon",
     instagram: "Indudini Thennakoon",
+
   },
   {
     name: "Ayush kumar",
@@ -194,10 +195,26 @@ const profiles = [
     skills: ["JavaScript", "React", "MySQL", "PostgreSQL","python"],
     github: "ayush4345",
     twitter: "ayushk_43",
-    
-
+    },
+    {
+      name: "Vedang Mule",
+      role: "Student at VIT Mumbai",
+      bio: "Web Developer and Competitive programmer",
+      skills: [ "html", "css", "javascript", "c++", "React", "Express","Java","git"],
+      github: "developer208",
+      twitter: "Vedang208",
+      instagram: "lazy_coder208",
+      },
+  {
+    name: "Logadheep",
+    role: "Student",
+    bio: "Python Enthusiast and Competitive Programmer",
+    skills: ["html", "css", "javascript", "c++", "python", "java"],
+    github: "Logadheep",
+    twitter: "LogadheepN",
+    instagram: "__loga45__",
   },
-  
+
 
 ];
 
