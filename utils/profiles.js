@@ -147,6 +147,7 @@ const profiles = [
     instagram: "",
   },
   {
+
     name: "Stuti Kumari",
     role: "Software Engineer",
     bio: "Front-End Developer",
@@ -225,6 +226,7 @@ const profiles = [
     instagram: "__loga45__",
   },
 
+
   {
     name: "Harry Ramsey",
     role: "Student",
@@ -274,6 +276,16 @@ const profiles = [
     twitter: "",
     instagram: "radhika._17",
     },
+    {
+    name: "Shivanshi Saxena",
+    role: "Student",
+    bio: "Frontend Developer",
+    skills: ["HTML","CSS","JavaScript", "Node", "React","Python", "Tailwind CSS"],
+    github: "shivanshi-s",
+    twitter: "whatshivanshi",
+    instagram: "",
+  },
+
 
 ];
 
