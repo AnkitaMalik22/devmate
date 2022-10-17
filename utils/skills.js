@@ -21,7 +21,7 @@ const SKILLS = [
   { name: "C" },
   { name: "C++" },
   { name: "git" },
-  { name: "python"}
+  { name: "python"},
   {name:".Net"},
 
 ];
