@@ -10,7 +10,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Typewriter from 'typewriter-effect';
 
-
 export default function Home() {
   const [display, setDisplay] = useState("absolute");
   const [lang, setLang] = useState();
@@ -60,16 +59,16 @@ export default function Home() {
         <h1 className={styles.title}>
           Find Your DEV Mate!
         </h1>
-
+        <h4 className={styles.tagline}>Explore, Interact, Learn...</h4>
         <p className={styles.description}>
-          <code className={styles.code}>
+          <code className={styles.code}>   
         <Typewriter
-  options={{
+   options={{
     strings: ['Search your mates now ...'],
     autoStart: true,
     loop: true,
-  }}
-/>
+   }} 
+  />
 </code>
 </p>
 
@@ -80,15 +79,15 @@ export default function Home() {
           <div className="w-full px-4">
             <div className="flex flex-col items-center relative">
               <div className="w-full  svelte-1l8159u">
-                <div className="my-2 p-1 flex border border-gray-200 bg-white rounded svelte-1l8159u">
+                <div className="my-2 p-1 flex border border-blue-200 bg-white rounded svelte-1l8159u">
                   <div className="flex flex-auto flex-wrap">
 
 
-                    <div className="flex justify-center items-center m-1 font-medium py-1 px-2 bg-white rounded-full text-teal-700  border border-teal-300 ">
+                    <div className="flex justify-center items-center m-1 font-medium py-1 px-2 bg-Green rounded-full text-teal-700  border border-blue-900 ">
                       <div className="text-xs font-normal leading-none max-w-full flex-initial">{lang}</div>
                       <div className="flex flex-auto flex-row-reverse">
                         <div>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-x cursor-pointer hover:text-teal-400 rounded-full w-4 h-4 ml-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="green" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" className="feather feather-x cursor-pointer hover:text-teal-400 rounded-full w-4 h-4 ml-2">
                             <line x1="18" y1="6" x2="6" y2="18"></line>
                             <line x1="6" y1="6" x2="18" y2="18"></line>
                           </svg>
@@ -97,14 +96,16 @@ export default function Home() {
                     </div>
 
                     <div className="flex-1">
-                      <input placeholder="" className="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800" />
+                      <input placeholder="Search Your Tech Here" 
+                      className="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-grey-800" />
                     </div>
                   </div>
-                  <div className="text-gray-300 w-8 py-1 pl-2 pr-1 border-l flex items-center border-gray-200 svelte-1l8159u">
+
+                  <div className="text-gray-300 w-8 py-1 pl-2 pr-1 border-2 flex items-center border-blue-800 svelte-1l8159u">
                     <button className="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none"
                       onClick={() => { display === "hidden" ? setDisplay("absolute") : setDisplay("hidden") }}>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-up w-4 h-4">
-                        <polyline points="18 15 12 9 6 15"></polyline>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="blue" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-up w-4 h-4">
+                        <polyline points="19 8 10 22 -1 7"></polyline>
                       </svg>
                     </button>
                   </div>
