@@ -285,8 +285,15 @@ const profiles = [
     twitter: "whatshivanshi",
     instagram: "",
   },
-
-
+  {
+    name: "Rohit Taparia",
+    role: "Student",
+    bio: "Aspiring Software Development Engineer",
+    skills: ["C","C++","git","SQL","JavaScript", "NodeJS", "ReactJS", "Express", "Java", "MongoDB"],
+    github: "RohitTaparia",
+    twitter: "",
+    instagram: "rohit_taparia19",
+  },
 ];
 
 export default profiles;
