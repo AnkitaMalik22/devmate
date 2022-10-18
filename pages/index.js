@@ -27,7 +27,6 @@ export default function Home() {
     let tmpList=[];
     if(typeof(lang) != "undefined")
     {
-      console.log(profiles)
       profiles.map((data, index) => {
         if(data.skills.find(checkLang))
         {
