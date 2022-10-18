@@ -10,21 +10,37 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Typewriter from 'typewriter-effect';
 
-
 export default function Home() {
   const [display, setDisplay] = useState("absolute");
   const [lang, setLang] = useState();
-  // let languages=new Set();
-  // let langs=Array.from(languages)
+  const [profilesList, setProfiles] = useState();
+  let languages=new Set();
 
-  // function addSkill(skill){
-  //   languages.add(skill)
-  // }
+  //Used to make sure that the inputs in profile.js are consitent for example html is equal to HTML 
+  function checkLang(skill){
+    return skill.toUpperCase() == lang.toUpperCase();
+  }
 
-  //   useEffect(() => {
-  // setLang(Array.from(languages))
-  // console.log(langs)
-  //   },[addSkill])
+  useEffect(() => {
+    setLang(lang)
+    languages.add(lang)
+    let tmpList=[];
+    if(typeof(lang) != "undefined")
+    {
+      console.log(profiles)
+      profiles.map((data, index) => {
+        if(data.skills.find(checkLang))
+        {
+          tmpList.push(data);
+        }
+      })
+      setProfiles(tmpList);
+    }
+    else
+    {
+      setProfiles(profiles);
+    }
+  })
 
   useEffect(() => {
     AOS.init()
@@ -135,7 +151,7 @@ export default function Home() {
 
         {/* added animations */}
         <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center" className={styles.grid}>
-          {profiles && profiles.map((data, index) => {
+          {profilesList && profilesList.map((data, index) => {
             return (
               <ProfileCard data={data} key={index} />
             )
