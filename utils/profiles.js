@@ -53,7 +53,15 @@ const profiles = [
     twitter: "roshan_kc682",
     instagram: "N/A",
   },
-
+  {
+    name: "Sahil Arora",
+    role: "Student",
+    bio: "Full Stack Developer",
+    skills: ["ReactJs", "Html", "css", "Javascript", "NodeJs", "Express", "Mongodb", "Sql","C++","git"],
+    github: "sahilarora02",
+    twitter: "arorasahil002",
+    instagram: "im_sahil_002",
+  },
   {
     name: "Arun Jangra",
     role: "Student",
@@ -150,7 +158,7 @@ const profiles = [
       "Tailwind",
       "MaterialUi",
     ],
-   
+
   },
   {
     name: "Shaurya Sk",
@@ -167,7 +175,7 @@ const profiles = [
     github: "Shaurya",
     twitter: "ShauryaKumar",
     instagram: "SShaurya",
-    },
+  },
   {
     name: "Dhruvil Lakhtaria",
     role: "Student",
@@ -182,20 +190,20 @@ const profiles = [
     name: "Indudini Thennakoon",
     role: "Student at SLIIT",
     bio: "Web Developer and Content Writer",
-    skills: [ "html", "css", "c", "c++", "php", "MySQL","JavaScript","git"],
+    skills: ["html", "css", "c", "c++", "php", "MySQL", "JavaScript", "git"],
     github: "IndudiniThennakoon",
     twitter: "indudini thennakoon",
     instagram: "Indudini Thennakoon",
-    },
-    {
-      name: "Vedang Mule",
-      role: "Student at VIT Mumbai",
-      bio: "Web Developer and Competitive programmer",
-      skills: [ "html", "css", "javascript", "c++", "React", "Express","Java","git"],
-      github: "developer208",
-      twitter: "Vedang208",
-      instagram: "lazy_coder208",
-      },
+  },
+  {
+    name: "Vedang Mule",
+    role: "Student at VIT Mumbai",
+    bio: "Web Developer and Competitive programmer",
+    skills: ["html", "css", "javascript", "c++", "React", "Express", "Java", "git"],
+    github: "developer208",
+    twitter: "Vedang208",
+    instagram: "lazy_coder208",
+  },
   {
     name: "Logadheep",
     role: "Student",
