@@ -14,35 +14,48 @@ export default function Home() {
   const [display, setDisplay] = useState("absolute");
 
   const [tags , setTags] = useState([]);
-  const [lang, setLang] = useState([]);
   const [profilesList, setProfiles] = useState();
-  let languages=new Set();
+
 
 
   //Used to make sure that the inputs in profile.js are consitent for example html is equal to HTML 
-  function checkLang(skill){
-    return skill.toUpperCase() == lang.toUpperCase();
-  }
 
   useEffect(() => {
-    setLang(lang)
-    languages.add(lang)
     let tmpList=[];
-    if(typeof(lang) != "undefined")
+    console.log(tags)
+    if(tags.length!=0)
     {
+      console.log("1");
+
       profiles.map((data, index) => {
-        if(data.skills.find(checkLang))
+        
+        let tempBool = true;
+        tags.forEach(element => {
+          if(!data.skills.includes(element)){
+            tempBool= false;
+          }
+        });
+        if(tempBool)
         {
           tmpList.push(data);
         }
+       
       })
+      if(tmpList.length == 0){
+        setProfiles([]);
+
+      }
+      else{
       setProfiles(tmpList);
+      }
     }
     else
     {
+      console.log("starting");
+
       setProfiles(profiles);
     }
-  })
+  },[tags])
 
   useEffect(() => {
     AOS.init()
@@ -103,14 +116,15 @@ export default function Home() {
 
 
              
-                      {lang.map((item)=>{return ( <>
+                      {tags.map((item)=>{return ( <>
                         <div className="flex justify-center items-center m-1 font-medium py-1 px-2 bg-white rounded-full text-teal-700  border border-teal-300 ">
                       <div  className="text-xs font-normal leading-none max-w-full flex-initial">{item}</div>
 
 
                       <div className="flex flex-auto flex-row-reverse">
                         <div  onClick={()=>{
-                          setLang(lang.filter(temp=>temp!=item));
+                          console.log("repeat me 1")
+                          setTags(tags.filter(temp=>temp!=item));
                           }}>
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-x cursor-pointer hover:text-teal-400 rounded-full w-4 h-4 ml-2">
                             <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -143,7 +157,7 @@ export default function Home() {
                   {
                     SKILLS && SKILLS.map((skill, index) => {
                       return (
-                        <div className="cursor-pointer w-full border-gray-100 rounded-t border-b hover:" onClick={() => { setLang([...lang,skill.name]) }} key={index}>
+                        <div className="cursor-pointer w-full border-gray-100 rounded-t border-b hover:" onClick={() => {console.log("repeat me two"); setTags([...tags,skill.name]) }} key={index}>
                           <div className="flex w-full items-center p-2 pl-2 border-transparent border-l-2 relative hover:border-teal-100">
                             <div className="w-full items-center flex">
                               <div className="mx-2 leading-6" data-skill={skill.name}>{skill.name}</div>
