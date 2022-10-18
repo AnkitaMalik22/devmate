@@ -287,6 +287,28 @@ const profiles = [
   },
 
 
+  {
+    name: "Hammad Khan",
+    role: "Software Engineer",
+    bio: "Front-End Developer",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "typescript",
+      "react.js",
+      "angular.js",
+      "electron.js",
+      "redux",
+      "react-native",
+      "tailwind-css",
+      "material-ui",
+      "ant-design",
+    ],
+    github: "HammadKhaan",
+    twitter: "",
+    instagram: "hammad.khaan",
+  },
 ];
 
 export default profiles;
