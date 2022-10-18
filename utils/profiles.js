@@ -8,7 +8,24 @@ const profiles = [
     twitter: "ankiitamalik",
     instagram: "ankiitamalik",
   },
-  
+  {
+    name: "Sahil Rohera",
+    role: "Student",
+    bio: "Full Stack Web Developer",
+    skills: [
+      "react.js",
+      "html",
+      "css",
+      "javascript",
+      "node.js",
+      "express.js",
+      "mongodb",
+    ],
+    github: "sahilrohera10",
+    twitter: "SahilRohera10",
+    instagram: "sahilrohera10",
+  },
+
   {
     name: "Thomas Qvidahl",
     role: "Software Engineer",
@@ -104,7 +121,7 @@ const profiles = [
     twitter: "don't have",
     instagram: "don't have ",
   },
-  
+
   {
     name: "Sai Karthik",
     role: "Software Engineer",
@@ -119,14 +136,9 @@ const profiles = [
     name: "Souvik Das",
     role: "Student",
     bio: "Aspiring Developer - App and Web",
-    skills: ["react", 
-             "html", 
-             "css", 
-             "javascript", 
-             "python", 
-             "Swift"],
+    skills: ["react", "html", "css", "javascript", "python", "Swift"],
   },
-  
+
   {
     name: "Hijikesh Hijal",
     role: "Software Engineer",
@@ -140,43 +152,27 @@ const profiles = [
       "Restify",
       "MySQL",
       "PostgreSQL",
-      "MongoDB"
+      "MongoDB",
     ],
     github: "hijal",
     twitter: "hiijal",
     instagram: "",
   },
   {
-
     name: "Stuti Kumari",
     role: "Software Engineer",
     bio: "Front-End Developer",
-    skills: [
-      "Html",
-      "Css",
-      "JavaScript",
-      "React",
-      "Tailwind",
-      "MaterialUi",
-    ],
-   
+    skills: ["Html", "Css", "JavaScript", "React", "Tailwind", "MaterialUi"],
   },
   {
     name: "Shaurya Sk",
     role: "FrontEnd developer",
     bio: "Front-End Developer",
-    skills: [
-      "Html",
-      "Css",
-      "JavaScript",
-      "React",
-      "Tailwind",
-      "MaterialUi",
-    ],
+    skills: ["Html", "Css", "JavaScript", "React", "Tailwind", "MaterialUi"],
     github: "Shaurya",
     twitter: "ShauryaKumar",
     instagram: "SShaurya",
-    },
+  },
   {
     name: "Dhruvil Lakhtaria",
     role: "Student",
@@ -185,37 +181,43 @@ const profiles = [
     github: "Dhruvil-Lakhtaria",
     twitter: "",
     instagram: "dhruvil.lakhtaria",
-
-
   },
   {
     name: "Indudini Thennakoon",
     role: "Student at SLIIT",
     bio: "Web Developer and Content Writer",
-    skills: [ "html", "css", "c", "c++", "php", "MySQL","JavaScript","git"],
+    skills: ["html", "css", "c", "c++", "php", "MySQL", "JavaScript", "git"],
     github: "IndudiniThennakoon",
     twitter: "indudini thennakoon",
     instagram: "Indudini Thennakoon",
-
   },
   {
     name: "Ayush kumar",
     role: "Student",
     bio: "student at NITK",
-    skills: ["JavaScript", "React", "MySQL", "PostgreSQL","python"],
+    skills: ["JavaScript", "React", "MySQL", "PostgreSQL", "python"],
     github: "ayush4345",
     twitter: "ayushk_43",
-    },
-    
-    {
-      name: "Vedang Mule",
-      role: "Student at VIT Mumbai",
-      bio: "Web Developer and Competitive programmer",
-      skills: [ "html", "css", "javascript", "c++", "React", "Express","Java","git"],
-      github: "developer208",
-      twitter: "Vedang208",
-      instagram: "lazy_coder208",
-      },
+  },
+
+  {
+    name: "Vedang Mule",
+    role: "Student at VIT Mumbai",
+    bio: "Web Developer and Competitive programmer",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "c++",
+      "React",
+      "Express",
+      "Java",
+      "git",
+    ],
+    github: "developer208",
+    twitter: "Vedang208",
+    instagram: "lazy_coder208",
+  },
   {
     name: "Logadheep",
     role: "Student",
@@ -225,7 +227,6 @@ const profiles = [
     twitter: "LogadheepN",
     instagram: "__loga45__",
   },
-
 
   {
     name: "Harry Ramsey",
@@ -239,9 +240,7 @@ const profiles = [
     name: "Kavya Karthik",
     role: "Student",
     bio: "Aspiring Web Page Developer",
-    skills: ["html", 
-             "css", 
-            ],
+    skills: ["html", "css"],
     github: "kkavya30",
     twitter: "",
     instagram: "",
@@ -256,37 +255,48 @@ const profiles = [
     twitter: "NikitaMahamuni",
     instagram: "nick2__000",
   },
-{
+  {
     name: "Panagiotis Anthoulis",
     role: "Software Engineer",
     bio: "Frontend Developer",
-    skills: ["JavaScript", "Node", "React", "Express","MySQL", "MongoDB"],
+    skills: ["JavaScript", "Node", "React", "Express", "MySQL", "MongoDB"],
     github: "PanagiotisAnthoulis",
     twitter: "PanosAnthoulis1",
     instagram: "panos_anthoulis",
-
   },
   {
-    
     name: "Radhika Chhabra",
     role: "Student",
     bio: "Aspiring Software Engineer",
-    skills: ["Machine Learning", "Deep Learning", "JavaScript", "React", "MySQL", "MongoDB"],
+    skills: [
+      "Machine Learning",
+      "Deep Learning",
+      "JavaScript",
+      "React",
+      "MySQL",
+      "MongoDB",
+    ],
     github: "RadhikaChhabra17",
     twitter: "",
     instagram: "radhika._17",
-    },
-    {
+  },
+  {
     name: "Shivanshi Saxena",
     role: "Student",
     bio: "Frontend Developer",
-    skills: ["HTML","CSS","JavaScript", "Node", "React","Python", "Tailwind CSS"],
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node",
+      "React",
+      "Python",
+      "Tailwind CSS",
+    ],
     github: "shivanshi-s",
     twitter: "whatshivanshi",
     instagram: "",
   },
-
-
 ];
 
 export default profiles;
