@@ -1,7 +1,7 @@
 .container {
   padding: 0 2rem;
 }
-
+  
 .main {
   /* min-height: 100vh; */
   padding: 4rem 0;
@@ -86,10 +86,26 @@
   height: auto;
 }
 
-@media (max-width: 786px) {
+@media (min-width: 600px) and (max-width:900px){
   .card {
     width: 100%;
     margin: 10px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    transition:transform .5s ease;
+  }
+
+  .card > section{
+    width:50%;
+  }
+  .card > section:last-child{
+    margin:0 0 0 10px;
+    width:48%;
+  }
+  .card > section > div:last-child{
+    padding:8px 0 0;
+    margin-bottom:-10px;
   }
 }
 
@@ -98,7 +114,7 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
-  transform: scale(1.08);
+  transform: scale(1.02);
 }
 
 .card h2 {
@@ -119,6 +135,10 @@
 }
 
 @media (max-width: 600px) {
+  .card > section > p:last-child{
+    margin:10px 0;
+  }
+
   .title {
     margin: 0;
     line-height: 1.15;
@@ -126,7 +146,7 @@
   }
   .grid {
     width: 100%;
-    flex-direction: column;
+    flex-direction:row;
   }
 }
 
