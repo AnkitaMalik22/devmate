@@ -71,7 +71,15 @@ const profiles = [
     twitter: "roshan_kc682",
     instagram: "N/A",
   },
-
+  {
+    name: "Sahil Arora",
+    role: "Student",
+    bio: "Full Stack Developer",
+    skills: ["ReactJs", "Html", "css", "Javascript", "NodeJs", "Express", "Mongodb", "Sql","C++","git"],
+    github: "sahilarora02",
+    twitter: "arorasahil002",
+    instagram: "im_sahil_002",
+  },
   {
     name: "Arun Jangra",
     role: "Student",
@@ -162,7 +170,16 @@ const profiles = [
     name: "Stuti Kumari",
     role: "Software Engineer",
     bio: "Front-End Developer",
-    skills: ["Html", "Css", "JavaScript", "React", "Tailwind", "MaterialUi"],
+
+    skills: [
+      "Html",
+      "Css",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "MaterialUi",
+    ],
+
   },
   {
     name: "Shaurya Sk",
@@ -192,12 +209,33 @@ const profiles = [
     instagram: "Indudini Thennakoon",
   },
   {
+    name: "Vedang Mule",
+    role: "Student at VIT Mumbai",
+    bio: "Web Developer and Competitive programmer",
+    skills: ["html", "css", "javascript", "c++", "React", "Express", "Java", "git"],
+    github: "developer208",
+    twitter: "Vedang208",
+    instagram: "lazy_coder208",
+  },
+
+  {
     name: "Ayush kumar",
     role: "Student",
     bio: "student at NITK",
     skills: ["JavaScript", "React", "MySQL", "PostgreSQL", "python"],
     github: "ayush4345",
     twitter: "ayushk_43",
+    },
+    
+    {
+      name: "Vedang Mule",
+      role: "Student at VIT Mumbai",
+      bio: "Web Developer and Competitive programmer",
+      skills: [ "html", "css", "javascript", "c++", "React", "Express","Java","git"],
+      github: "developer208",
+      twitter: "Vedang208",
+      instagram: "lazy_coder208",
+
   },
 
   {
@@ -218,6 +256,7 @@ const profiles = [
     twitter: "Vedang208",
     instagram: "lazy_coder208",
   },
+
   {
     name: "Logadheep",
     role: "Student",
