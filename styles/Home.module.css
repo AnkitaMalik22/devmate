@@ -135,6 +135,10 @@
 }
 
 @media (max-width: 600px) {
+  .card > section > p:last-child{
+    margin:10px 0;
+  }
+
   .title {
     margin: 0;
     line-height: 1.15;
