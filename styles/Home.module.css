@@ -41,8 +41,10 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
+  line-height: 1.25;
   font-size: 4rem;
+  color:#07386c;
+  font-weight:500;
 }
 
 .title,
@@ -50,9 +52,16 @@
   text-align: center;
 }
 
+.tagline {
+  margin: 15px;
+  line-height: 1;
+  font-size: 1.6rem;
+  color:#5CDB95;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 .description {
-  
-  margin: 2rem 0;
+ margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
