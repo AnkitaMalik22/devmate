@@ -330,6 +330,16 @@ const profiles = [
     twitter: "",
     instagram: "hammad.khaan",
   },
+  
+  {
+    name: "Yashneet Kalra",
+    role: "Student",
+    bio: "Aspiring software engineer who loves to explore new technologies",
+    skills: ["Python", "Flask", "Django", "C/C++", "Postman", "Html", "CSS", "Javascript"],
+    github: "https://github.com/yashneet-kalra",
+    twitter: "",
+    instagram: "",
+  },
 ];
 
 export default profiles;
