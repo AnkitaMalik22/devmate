@@ -17,6 +17,8 @@ const SKILLS = [
   { name: "Restify" },
   { name: "PostgreSQL" },
   { name: "css" },
+  { name: "Bootstrap" },
+  { name: "Tailwind" },
   { name: "php" },
   { name: "C" },
   { name: "C++" },
