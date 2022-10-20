@@ -39,7 +39,7 @@ const profiles = [
     name: 'Anisha Nayaju',
     role: 'student',
     bio: 'Backend Development',
-    skills: ['html','CSS','Javascript','Python','C','c++']
+    skills: ['html','CSS','Javascript','Python','C','c++'],
     github : 'anishaxtha',
     twitter: 'anishanayaju_26',
     instagram: 'anishaxtha08',
