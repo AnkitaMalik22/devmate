@@ -38,7 +38,6 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <!-- Primary Meta Tags -->
         <title>Find Your DEV Mate!</title>
         <meta name="title" content="Find Your DEV Mate!" />
         <meta name="description" content="A Web App Find Your DEV Mate!" />
