@@ -339,6 +339,13 @@ const profiles = [
     twitter: "",
     instagram: "",
   },
+  {
+    name: 'Yagnesh Patel',
+    role: 'Student',
+    bio: 'Java Developer',
+    skills: ['Java', 'C','html','css','javascript'],
+    github: 'yaggit',
+  },
 ];
 
 export default profiles;
