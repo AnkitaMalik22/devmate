@@ -40,15 +40,15 @@ export default function Home() {
       <Head>
         <!-- Primary Meta Tags -->
         <title>Find Your DEV Mate!</title>
-        <meta name="title" content="Find Your DEV Mate!">
-        <meta name="description" content="A Web App Find Your DEV Mate!">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://devmate.vercel.app/">
-        <meta property="og:title" content="Find Your DEV Mate!">
-        <meta property="og:description" content="A Web App Find Your DEV Mate!">
-        <meta property="twitter:url" content="https://devmate.vercel.app/">
-        <meta property="twitter:title" content="Find Your DEV Mate!">
-        <meta property="twitter:description" content="A Web App Find Your DEV Mate!">
+        <meta name="title" content="Find Your DEV Mate!" />
+        <meta name="description" content="A Web App Find Your DEV Mate!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://devmate.vercel.app/" />
+        <meta property="og:title" content="Find Your DEV Mate!" />
+        <meta property="og:description" content="A Web App Find Your DEV Mate!" />
+        <meta property="twitter:url" content="https://devmate.vercel.app/" />
+        <meta property="twitter:title" content="Find Your DEV Mate!" />
+        <meta property="twitter:description" content="A Web App Find Your DEV Mate!" />
           
         <link
           rel="apple-touch-icon"
