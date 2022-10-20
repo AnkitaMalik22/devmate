@@ -36,6 +36,16 @@ const profiles = [
   },
 
   {
+    name: 'Anisha Nayaju',
+    role: 'student',
+    bio: 'Backend Development',
+    skills: ['html','CSS','Javascript','Python','C','c++',]
+    github : 'anishaxtha',
+    twitter: 'anishanayaju_26',
+    instagram: 'anishaxtha08',
+  },
+
+  {
     name: 'Sarthak Rajput',
     role: 'Student',
     bio: 'Aspiring Full Stack Developer',
