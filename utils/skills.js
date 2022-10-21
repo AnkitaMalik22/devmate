@@ -26,7 +26,8 @@ const SKILLS = [
   { name: "Machine Learning"},
   { name: "Deep Learning"},
   { name: "python"},
-  {name:".Net"},
+  { name: ".Net"},
+  { name: "AngularJS"},
 
 ];
 
