@@ -1,24 +1,24 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-import { useState, useEffect } from 'react';
-import SKILLS from '../utils/skills';
-import { ProfileCard } from '../components/ProfileCard';
-import {ScrollToTop} from '../components/ScrollToTop'
-import profiles from '../utils/profiles';
-import { FaGithub } from 'react-icons/fa';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Typewriter from 'typewriter-effect';
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import { useState, useEffect } from "react";
+import SKILLS from "../utils/skills";
+import { ProfileCard } from "../components/ProfileCard";
+import { ScrollToTop } from "../components/ScrollToTop";
+import profiles from "../utils/profiles";
+import { FaGithub } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
-  const [display, setDisplay] = useState('absolute');
+  const [display, setDisplay] = useState("absolute");
   const [searchedProfile, setSearchedProfile] = useState([]);
   const [lang, setLang] = useState();
 
   const filterItems = (arr, query) => {
     let filteredProfiles = [];
-    if (query !== '') {
+    if (query !== "") {
       arr.map((profile) => {
         profile.skills.filter((element) => {
           if (element.toLowerCase().indexOf(query.toLowerCase()) !== -1) {
@@ -45,11 +45,17 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://devmate.vercel.app/" />
         <meta property="og:title" content="Find Your DEV Mate!" />
-        <meta property="og:description" content="A Web App Find Your DEV Mate!" />
+        <meta
+          property="og:description"
+          content="A Web App Find Your DEV Mate!"
+        />
         <meta property="twitter:url" content="https://devmate.vercel.app/" />
         <meta property="twitter:title" content="Find Your DEV Mate!" />
-        <meta property="twitter:description" content="A Web App Find Your DEV Mate!" />
-          
+        <meta
+          property="twitter:description"
+          content="A Web App Find Your DEV Mate!"
+        />
+
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -136,7 +142,7 @@ export default function Home() {
           <code className={styles.code}>
             <Typewriter
               options={{
-                strings: ['Search your mates now ...'],
+                strings: ["Search your mates now ..."],
                 autoStart: true,
                 loop: true,
               }}
@@ -160,7 +166,7 @@ export default function Home() {
                       <div className="flex flex-auto flex-row-reverse">
                         <div
                           onClick={() => {
-                            setLang('');
+                            setLang("");
                           }}
                         >
                           <svg
@@ -196,9 +202,9 @@ export default function Home() {
                     <button
                       className="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none"
                       onClick={() => {
-                        display === 'hidden'
-                          ? setDisplay('absolute')
-                          : setDisplay('hidden');
+                        display === "hidden"
+                          ? setDisplay("absolute")
+                          : setDisplay("hidden");
                       }}
                     >
                       <svg
@@ -221,7 +227,7 @@ export default function Home() {
               </div>
               <div
                 className={`${
-                  display === 'hidden' ? 'absolute' : 'hidden'
+                  display === "hidden" ? "absolute" : "hidden"
                 } shadow top-100 bg-white z-40 w-full lef-0 rounded max-h-select overflow-y-auto svelte-5uyqqj`}
               >
                 <div className="flex flex-col w-full">
@@ -253,9 +259,15 @@ export default function Home() {
               </div>
             </div>
           </div>
+          {profiles && searchedProfile.length > 0 && (
+            <div className={styles.totalDev}>
+              <h1>{profiles && searchedProfile.length} Dev Profiles Found!</h1>
+            </div>
+          )}
         </div>
 
         {/* added animations */}
+
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
@@ -269,8 +281,8 @@ export default function Home() {
         </div>
       </main>
 
-      <ScrollToTop/>
-          
+      <ScrollToTop />
+
       <footer className={styles.footer}>
         <a
           href="https://github.com/AnkitaMalik22/devmate"
