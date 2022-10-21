@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
 import SKILLS from '../utils/skills';
 import { ProfileCard } from '../components/ProfileCard';
+import {ScrollToTop} from '../components/ScrollToTop'
 import profiles from '../utils/profiles';
 import { FaGithub } from 'react-icons/fa';
 import AOS from 'aos';
@@ -259,6 +260,8 @@ export default function Home() {
         </div>
       </main>
 
+      <ScrollToTop/>
+          
       <footer className={styles.footer}>
         <a
           href="https://github.com/AnkitaMalik22/devmate"
