@@ -401,9 +401,9 @@ const profiles = [
       "Solidity",
       "SQL",
     ],
-    github: "https://github.com/rohitroy-github",
-    twitter: "https://twitter.com/rohitroy_R",
-    instagram: "https://www.instagram.com/rohit_roy_x/",
+    github: "rohitroy-github",
+    twitter: "rohitroy_R",
+    instagram: "rohit_roy_x",
   },
 ];
 
