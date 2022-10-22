@@ -23,11 +23,17 @@ const SKILLS = [
   { name: "C" },
   { name: "C++" },
   { name: "git" },
-  { name: "Machine Learning"},
-  { name: "Deep Learning"},
-  { name: "python"},
-  { name: ".Net"},
+  { name: "Machine Learning" },
+  { name: "Deep Learning" },
+  { name: "python" },
+  { name: ".Net" },
   { name: "AngularJS"},
+  { name: "Material UI" },
+  { name: "WordPress" },
+ 
+
+
+
 
 ];
 
