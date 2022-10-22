@@ -353,7 +353,7 @@ const profiles = [
     name: 'Yagnesh Patel',
     role: 'Student',
     bio: 'Java Developer',
-    skills: ['Java', 'C','html','css','javascript'],
+    skills: ['Java', 'C','html','css','javascript','AngularJS'],
     github: 'yaggit',
   },
 ];
