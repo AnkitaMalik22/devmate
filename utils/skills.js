@@ -29,7 +29,7 @@ const SKILLS = [
   { name: ".Net" },
   { name: "Material UI" },
   { name: "WordPress" },
-  { name: "Solidity" },
+ 
 ];
 
 export default SKILLS;
