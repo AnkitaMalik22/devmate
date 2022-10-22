@@ -404,6 +404,7 @@ const profiles = [
     github: "rohitroy-github",
     twitter: "rohitroy_R",
     instagram: "rohit_roy_x",
+
   },
 ];
 
