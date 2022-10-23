@@ -247,6 +247,16 @@ const profiles = [
   },
 
   {
+    name: "Mohamed Khaled Yousef",
+    role: "Frontend Developer",
+    bio: "Frontend Developer",
+    skills: ["Html", "Css", "JavaScript", "React", "Tailwind", "MaterialUi", "Nextjs", "Typescript"],
+    github: "this-mkhy",
+    twitter: "this_mkhy",
+    instagram: "this_mkhy",
+  },
+
+  {
     name: "Vedang Mule",
     role: "Student at VIT Mumbai",
     bio: "Web Developer and Competitive programmer",
