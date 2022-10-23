@@ -416,6 +416,15 @@ const profiles = [
     instagram: "rohit_roy_x",
 
   },
+  {
+    name: "Dipanjana Dasgupta",
+    role: "Student",
+    bio: "Frontend Developer",
+    skills: ["Html", "Css", "JavaScript", "Python","C++","Java","SQL"],
+    github: "Dipanjana25",
+    twitter:"dipanjana12345",
+    instagram: "dipanjanadasgupta",
+  },
 ];
 
 export default profiles;

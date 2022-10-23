@@ -262,6 +262,7 @@ export default function Home() {
           {profiles && searchedProfile.length > 0 && (
             <div className={styles.totalDev}>
               <h1>{profiles && searchedProfile.length} Dev Profiles Found!</h1>
+              Alert! Scroll down to see the profiles
             </div>
           )}
         </div>
