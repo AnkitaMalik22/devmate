@@ -416,6 +416,25 @@ const profiles = [
     instagram: "rohit_roy_x",
 
   },
+
+  {
+    name: "Siddhi Agarkar",
+    role: "Sophomore at NIT DGP",
+    bio: "Full Stack Web-developer and enthusiastic learner. ",
+    skills: [
+      "Python",
+      "Django",
+      "C++",
+      "Postman",
+      "Html",
+      "CSS",
+      "Javascript",
+    ],
+    github: "https://github.com/siddhiagarkar",
+    twitter: "",
+    instagram: "seedhee1203",
+  },
+
 ];
 
 export default profiles;
