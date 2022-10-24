@@ -15,14 +15,20 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background-color: #f0f0f042;
+  background-color: #97939342;
 }
 
 body::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: #f5f5f5;
+  background: var(--sc-color);
 }
 
+:root{
+  --sc-color: black;
+}
+.dark-theme{
+  --sc-color: white;
+}
 
 a {
   color: inherit;
