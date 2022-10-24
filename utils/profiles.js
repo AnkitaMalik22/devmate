@@ -416,6 +416,13 @@ const profiles = [
     instagram: "rohit_roy_x",
 
   },
+    {
+    name: "Kashika Malik",
+    role: "Student",
+    bio: "Aspiring Programmer",
+    skills: ["python", "javascript"],
+    github: "s-malikk",
+  },
 ];
 
 export default profiles;
