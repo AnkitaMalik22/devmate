@@ -43,6 +43,15 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation-name: sample;
+  animation-duration: 3s;
+  position: relative;
+}
+
+@keyframes sample{
+  0% {top: -40px;}
+  25% {top: 0px; }
 }
 
 .title,
@@ -168,4 +177,8 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+#searchh:hover{
+  background-color: rgb(204, 234, 248);
 }
