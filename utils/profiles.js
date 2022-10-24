@@ -418,6 +418,7 @@ const profiles = [
   },
 
 
+
   {
     name: "Siddhi Agarkar",
     role: "Sophomore at NIT DGP",
@@ -434,6 +435,13 @@ const profiles = [
     github: "https://github.com/siddhiagarkar",
     twitter: "",
     instagram: "seedhee1203",
+    },
+    {
+    name: "Kashika Malik",
+    role: "Student",
+    bio: "Aspiring Programmer",
+    skills: ["python", "javascript"],
+    github: "s-malikk",
   },
 
   {
@@ -445,6 +453,7 @@ const profiles = [
     twitter: "Richaaaaa77",
     instagram: "richaroy_07",
   },
+
 
 ];
 
