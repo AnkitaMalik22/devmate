@@ -454,6 +454,16 @@ const profiles = [
     instagram: "richaroy_07",
   },
 
+  {
+    name: "Dipanjana Dasgupta",
+    role: "Student",
+    bio: "Aspiring full stack developer and Competitive coding enthusiast",
+    skills: ["html", "css", "javascript","c++","python","java"],
+    github: "Dipanjana25",
+    twitter: "dipanjana12345",
+    instagram: "dipanjanadasgupta",
+  }
+
 
 ];
 

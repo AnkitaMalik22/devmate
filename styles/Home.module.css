@@ -74,9 +74,9 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 .totalDev{
-  margin-top: 5rem;
-  border: 1px solid #eaeaea;
-  color: white;
+  margin-top: 9rem;
+  border: 1px solid #0070f3;
+  /* color: white; */
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;
@@ -86,20 +86,22 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  /* height:200px; */
   /* max-width: 800px; */
 }
 
 .card {
+  /* margin-top: 20rem; */
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #0070f3;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 400px;
-  height: auto;
+  height: 400px;
 }
 
 @media (min-width: 600px) and (max-width:900px){
@@ -176,6 +178,28 @@
   }
   .logo img {
     filter: invert(1);
+  }
+  .totalDev{
+    border:1px solid #eaeaea;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: white) {
+  .card,
+  .footer {
+    border-color: white;
+  }
+  .code {
+    background: white;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+
+  .totalDev{
+    border:1px solid #0a0a0a;
+    color: black;
   }
 }
 
