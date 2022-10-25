@@ -101,7 +101,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 400px;
-  height: 400px;
+  height: auto;
 }
 
 @media (min-width: 600px) and (max-width:900px){
