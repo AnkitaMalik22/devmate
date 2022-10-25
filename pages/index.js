@@ -147,6 +147,13 @@ export default function Home() {
                 loop: true,
               }}
             />
+            <Typewriter
+              options={{
+                strings: ["Scroll down to see your results..."],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </code>
         </p>
 
