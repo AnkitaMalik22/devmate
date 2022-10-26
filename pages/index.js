@@ -136,8 +136,8 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
         {/* <link rel='icon' href='/favicon/favicon.ico'/> */}
       </Head>
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" />
+      <Script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" />
 
 
     <Navbar/>
