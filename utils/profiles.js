@@ -467,7 +467,7 @@ const profiles = [
     name: "Manav Malhotra",
     role: "Student",
     bio: "Backend developer and Feel free to contact me, We can build some cool projects together",
-    skills: ["Node.js","express.js","javaScript","java"],
+    skills: ["Javascript","NodeJs","Java","Express","MongoDB","css","Bootstrap","git"],
     github: "ManaMalhotra",
     twitter: "iManaMalhotra",
     instagram: "iManaMalhotra",
