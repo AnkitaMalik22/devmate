@@ -1,6 +1,7 @@
 const SKILLS = [
-  { name: "Html" },
-  { name: "Javascript" },
+  { name: "HTML" },
+  { name: "CSS" },
+  { name: "JavaScript" },
   { name: "ReactJs" },
   { name: "NodeJs" },
   { name: "SQL" },
@@ -25,12 +26,16 @@ const SKILLS = [
   { name: "git" },
   { name: "Machine Learning" },
   { name: "Deep Learning" },
-  { name: "python" },
+  { name: "Python" },
   { name: ".Net" },
   { name: "AngularJS"},
   { name: "Material UI" },
   { name: "WordPress" },
- 
+  { name: "React Native" },
+  { name: "Firebase" },
+  { name: "Jest" },
+  { name: "Figma" },
+  { name: "AdobeXD" },
 
 
 
