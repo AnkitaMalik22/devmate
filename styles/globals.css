@@ -48,12 +48,12 @@ a {
 .max-h-select {
     max-height: 300px;
 }
-ul {
+/* ul {
   list-style: none;
 }
 li {
   display: inline-block;
-}
+} */
 svg {
   width: 46px;
 }

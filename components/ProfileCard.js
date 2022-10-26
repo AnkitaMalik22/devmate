@@ -44,7 +44,7 @@ export const ProfileCard = ({ data }) => {
             })}
           </div>
           <div data-aos="fade-right" data-aos-duration="1000" className="py-2">
-            <li>
+            <li className="display: inline-block">
               <a
                 href={`https://github.com/${data.github}`}
                 className="icon-13 github icon"
@@ -55,7 +55,7 @@ export const ProfileCard = ({ data }) => {
                 </svg>
               </a>
             </li>
-            <li>
+            <li className="display: inline-block">
               <a
                 href={`https://twitter.com/${data.twitter}`}
                 className="icon-26 twitter icon"
@@ -66,7 +66,7 @@ export const ProfileCard = ({ data }) => {
                 </svg>
               </a>
             </li>
-            <li>
+            <li className="display: inline-block">
               <a
                 href={`https://instagram.com//${data.instagram}`}
                 className="icon-15 instagram icon"

@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Script from 'next/script'
+import Navbar from "../components/Navbar"
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useState, useEffect } from "react";
@@ -134,11 +136,15 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
         {/* <link rel='icon' href='/favicon/favicon.ico'/> */}
       </Head>
+      <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" />
+      <Script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" />
 
+
+    <Navbar/>
       <main className={styles.main}>
         <h1 className={styles.title}>Find Your DEV Mate!</h1>
 
-        <p className={styles.description}>
+        <span className={styles.description}>
           <code className={styles.code}>
             <Typewriter
               options={{
@@ -148,7 +154,7 @@ export default function Home() {
               }}
             />
           </code>
-        </p>
+        </span>
 
         <div className="w-full md:w-1/2 flex flex-col items-center h-64 mx-auto text-black">
           <div className="w-full px-4" id="searchh">

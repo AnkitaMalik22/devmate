@@ -4,6 +4,7 @@
   
 .main {
   /* min-height: 100vh; */
+  margin-top: 5rem;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -61,6 +62,7 @@
 
 .description {
   
+  color: #00df9a;
   margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
