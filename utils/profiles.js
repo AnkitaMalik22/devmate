@@ -462,7 +462,16 @@ const profiles = [
     github: "Dipanjana25",
     twitter: "dipanjana12345",
     instagram: "dipanjanadasgupta",
-  }
+  },
+  {
+    name: "Manav Malhotra",
+    role: "Student",
+    bio: "Backend developer and Feel free to contact me, We can build some cool projects together",
+    skills: ["Javascript","NodeJs","Java","Express","MongoDB","css","Bootstrap","git"],
+    github: "ManaMalhotra",
+    twitter: "iManaMalhotra",
+    instagram: "iManaMalhotra",
+  },
 
 
 ];
