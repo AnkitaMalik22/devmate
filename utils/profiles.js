@@ -500,7 +500,14 @@ const profiles = [
     twitter: "iManaMalhotra",
     instagram: "iManaMalhotra",
   },
-
+  
+  {
+    name: "Nikita Warrier",
+    role: "Student",
+    bio: "Aspiring Innovative Programmer",
+    skills: ["C++", "python"],
+    github: "nikitawarrier",
+  },
 
 ];
 
